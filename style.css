@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: url(fundo.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+div ul li img{
+    height: 25px;
+    border-radius: 50%;
+    opacity: 0;
+    cursor: pointer;
+}
+.container{
+    background-color: #515151;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.input01{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+.button01{
+   border: none;
+   border-radius: 5px;
+   height: 40px;
+   width: 90px;
+   float: right;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+.button01:hover{
+    opacity: 0.8; /*quando  o mouse entrar no button fica transparente */
+}
+.lista{
+    width: 100%;
+    list-style: none;/*tirar a bolinha que fica na lista*/
+}
+.lista01{
+    background-color: hsl(0, 15%, 42%);
+    box-shadow: 1px 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;/* espaço ao redor */
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+li:hover img {
+    opacity:1 ;
+    cursor: pointer;
+}
